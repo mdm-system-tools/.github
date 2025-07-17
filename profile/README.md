@@ -46,20 +46,3 @@ A ideia é aumentar a **eficiência da administração**, agilizar processos e *
 | **Frontend**| React Native com cache local via SQLite     |
 | **Chatbot** | Go (Golang) utilizando a biblioteca [Whatsmeow](https://github.com/tulir/whatsmeow) |
 | **Hospedagem** | Amazon Web Services (AWS)                |
-
----
-
-## 📁 Estrutura do Repositório
-- Backend
-  - cmd/app # Ponto de entrada do backend
-  - internal/database # Queries geradas via sqlc
-  - internal/domain # Entidades (DDD)
-  - internal/handler # Handlers e controladores HTTP
-  - internal/service # Logica e manipulação de dados
-  - test/ # Testes unitários e de integração
-  - schema.sql # Esquema SQL das tabelas
-  - queries.sql # Comandos SQL
-- Frontend
-  - em processo de desenvolvimento...
-- Chatbot
-  - em processo de desenvolvimento...
