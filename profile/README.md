@@ -38,11 +38,12 @@ A ideia é aumentar a **eficiência da administração**, agilizar processos e *
 
 ---
 
-## 🛠️ Stack Tecnológica
+## 🛠️ Stack de Desenvolvimento
 
-| Camada     | Ferramenta                                 |
-|------------|---------------------------------------------|
-| **Backend** | Go (Golang) com banco de dados SQLite. Tabelas e requisições são geradas via sqlc |
-| **Frontend**| React Native com cache local via SQLite     |
-| **Chatbot** | Go (Golang) utilizando a biblioteca [Whatsmeow](https://github.com/tulir/whatsmeow) |
-| **Hospedagem** | Amazon Web Services (AWS)                |
+| Camada          | Ferramenta                              |
+|-----------------|-----------------------------------------|
+| **Backend**     | Java 21 com Framework Spring Boot       |
+| **Aplication**  | Kotlin com KMP e Jetpack Compose        |
+| **Database**    | Backend - Postgresql  Aplicativo - Room |
+| **Cloud**       | Amazon Web Services (AWS)               |
+
